@@ -1,5 +1,5 @@
 body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
     padding-top: -5px;
     background-color: aliceblue; 
@@ -47,7 +47,7 @@ body {
   #tribute-info {
     max-width: 100%;
     margin: 0 auto;
-    animation: slide 4.2s ease-in-out;
+    animation: slide 4.5s ease-in-out;
     padding-top: -5px;
     
   }
@@ -87,4 +87,9 @@ body {
     to {
       left: 0;
     }
+}
+.credits{
+  padding-top: 100px;
+  text-align: center;
+  font-size: small;
 }
